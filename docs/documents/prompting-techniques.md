@@ -379,4 +379,4 @@ https://www.linkedin.com/pulse/9-frameworks-master-chatgpt-prompt-engineering-ed
 
 ---
 
-_Written By Mark Doszlop_
+_Written by Mark Doszlop_

@@ -65,4 +65,4 @@ _Used if relevant for any supplementary materials or extended examples_
 
 ---
 
-_Written By Your Name_
+_Written by Your Name_
