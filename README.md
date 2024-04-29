@@ -16,7 +16,7 @@
 
 ### Guidelines
 
-- When adding your files, create a separate .md file in the documents section and make sure to reference it in the \_sidebar.md file, under the appropriate topic (or create one if it no topic matches the subject of the research).
+- When adding your files, create a separate .md file in the documents folder and make sure to reference it in the \_sidebar.md file, under the appropriate topic (or create one if it no topic matches the subject of the research).
 
 e.g.
 
