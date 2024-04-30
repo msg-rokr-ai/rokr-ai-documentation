@@ -112,6 +112,7 @@ In practice, we have tools like LangChain with which we can leverage the power o
 ```
 
 _Example_
+
 ![alt text](../images/prompting-techniques/image-5.png)
 
 </details>
