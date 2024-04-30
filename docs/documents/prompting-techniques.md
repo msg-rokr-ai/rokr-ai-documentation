@@ -19,7 +19,7 @@ This is what Chain-Of-Thought Prompting does, by giving him an example of this t
 
 _Example_
 
-![alt text](../images/image-0.png)
+![alt text](../images/prompting-techniques/image-0.png)
 
 </details>
 
@@ -39,11 +39,11 @@ This method is underpinned by the following strategy:
 
 _Example_
 
-![alt text](../images/image.png)
+![alt text](../images/prompting-techniques/image.png)
 
 _Difference between Chain-of-Thought and Least-To-Most Prompting_
 
-![alt text](../images/image-1.png)
+![alt text](../images/prompting-techniques/image-1.png)
 
 </details>
 
@@ -60,7 +60,7 @@ This approach is interactive and adapts to the specific context of the situation
 
 _Example_
 
-![alt text](../images/image-2.png)
+![alt text](../images/prompting-techniques/image-2.png)
 
 </details>
 
@@ -76,7 +76,7 @@ The model might not have the direct answer to a question, but answers to sub-que
 
 _Example_
 
-![alt text](../images/image-3.png)
+![alt text](../images/prompting-techniques/image-3.png)
 
 </details>
 
@@ -93,7 +93,7 @@ The key principle underpinning Meta-Prompting is to cause the agent to reflect o
 
 _Example_
 
-![alt text](../images/image-4.png)
+![alt text](../images/prompting-techniques/image-4.png)
 
 </details>
 
@@ -112,7 +112,7 @@ In practice, we have tools like LangChain with which we can leverage the power o
 ```
 
 _Example_
-![alt text](../images/image-5.png)
+![alt text](../images/prompting-techniques/image-5.png)
 
 </details>
 
@@ -127,7 +127,7 @@ LLMs should not only be able to perform mathematical reasoning, but also symboli
 
 _Example_
 
-![alt text](../images/image-6.png)
+![alt text](../images/prompting-techniques/image-6.png)
 
 </details>
 
@@ -148,7 +148,7 @@ The self-consistency method is constituted by three steps:
 
 _Example_
 
-![alt text](../images/image-7.png)
+![alt text](../images/prompting-techniques/image-7.png)
 
 </details>
 
@@ -169,7 +169,7 @@ ART works as follows:
 
 _Example_
 
-![alt text](../images/image-8.png)
+![alt text](../images/prompting-techniques/image-8.png)
 
 </details>
 
@@ -190,7 +190,7 @@ This technique can be combined with external sources, such as APIs or databases,
 
 _Example_
 
-![alt text](../images/image-9.png)
+![alt text](../images/prompting-techniques/image-9.png)
 
 </details>
 
@@ -217,7 +217,7 @@ Prompt engineering frameworks are systematic approaches or methodologies used to
 
 _Example_
 
-![alt text](../images/image-10.png)
+![alt text](../images/prompting-techniques/image-10.png)
 
 2.  RACE: Role, Action, Context, Expectation
 
@@ -228,7 +228,7 @@ _Example_
 
 _Example_
 
-![alt text](../images/image-11.png)
+![alt text](../images/prompting-techniques/image-11.png)
 
 3. COAST: Context, Objective, Actions, Scenario, Task
 
@@ -240,7 +240,7 @@ _Example_
 
 _Example_
 
-![alt text](../images/image-12.png)
+![alt text](../images/prompting-techniques/image-12.png)
 
 4. TAG: Task, Action, Goal
 
@@ -250,7 +250,7 @@ _Example_
 
 _Example_
 
-![alt text](../images/image-13.png)
+![alt text](../images/prompting-techniques/image-13.png)
 
 5. RISE: Role, Input, Steps, Expectation
 
@@ -261,7 +261,7 @@ _Example_
 
 _Example_
 
-![alt text](../images/image-14.png)
+![alt text](../images/prompting-techniques/image-14.png)
 
 6. TRACE: Task, Request, Action, Context, Example
 
@@ -273,7 +273,7 @@ _Example_
 
 _Example_
 
-![alt text](../images/image-16.png)
+![alt text](../images/prompting-techniques/image-16.png)
 
 7. ERA: Expectation, Role, Action
 
@@ -283,7 +283,7 @@ _Example_
 
 _Example_
 
-![alt text](../images/image-17.png)
+![alt text](../images/prompting-techniques/image-17.png)
 
 8. CARE: Context, Action, Result, Example
 
@@ -294,7 +294,7 @@ _Example_
 
 _Example_
 
-![alt text](../images/image-18.png)
+![alt text](../images/prompting-techniques/image-18.png)
 
 9. ROSES: Role, Objective, Scenario, Expected Solution, Steps
 
@@ -306,7 +306,7 @@ _Example_
 
 _Example_
 
-![alt text](../images/image-19.png)
+![alt text](../images/prompting-techniques/image-19.png)
 
 ## Advantages
 

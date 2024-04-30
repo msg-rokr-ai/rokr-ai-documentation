@@ -4,4 +4,4 @@ Welcome to the ROKR AI Documentation, your go-to resource for AI and LLM-related
 \
 \
 \
-![image](/images/logo.jpg)
+![image](/images/shared/logo.jpg)

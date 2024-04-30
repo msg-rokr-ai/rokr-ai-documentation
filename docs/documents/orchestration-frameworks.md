@@ -11,7 +11,7 @@ LLM frameworks provide a high-level interface for managing and controlling large
 \
 \
 \
-![alt text](../images/image-02-01.png)
+![alt text](../images/orchestration-frameworks/image-02-01.png)
 
 Numerous orchestration frameworks are accessible. These frameworks have various purposes such as testing, integration, and deployment, offering a comprehensive ecosystem of options. These constitute a dynamically evolving segment of the generative AI landscape, particularly with the rise in popularity of LLMs, therefore the validity of the information described in this research may change over time.
 
@@ -27,7 +27,7 @@ It is essentially a library of abstractions for Python and Javascript, represent
 - Processing the language model’s output
   The links in a chain are connected in a sequential manner, with the output of one link serving as the input to the next. By chaining together small operations, the chain can do more complex tasks.
 
-![alt text](../images/image-02-02.png)
+![alt text](../images/orchestration-frameworks/image-02-02.png)
 
 Some of the most used components for creating an LLM based application with LangChain, that we also used in developing our application, are:
 
@@ -35,7 +35,7 @@ Some of the most used components for creating an LLM based application with Lang
 
 Naturally, LangChain calls for LLMs – large language models that are trained on vast text and code datasets. You can use them to generate text, translate languages, and answer queries, among other things.
 
-![alt text](../images/image-02-03.png)
+![alt text](../images/orchestration-frameworks/image-02-03.png)
 
 **Prompt templates**
 
@@ -61,7 +61,7 @@ A vector store houses mathematical representations of words and phrases. It come
 
 Agents are programs that can reason about issues and divide them into smaller subtasks. You can use an agent to direct the flow of a chain and decide which jobs to do – for example, assess whether a language model or a human expert is best suited to answer a user’s inquiry.
 
-![alt text](../images/image-02-04.png)
+![alt text](../images/orchestration-frameworks/image-02-04.png)
 
 Nearly any LLM can be used in LangChain. Importing language models into LangChain is easy, provided you have an API key. The LLM class is designed to provide a standard interface for all models.
 
@@ -95,7 +95,7 @@ LangChain can be used for a wide variety of applications, including:
 
 1. LlamaIndex
 
-![alt text](../images/image-02-05.png)
+![alt text](../images/orchestration-frameworks/image-02-05.png)
 
 Unlike LlamaIndex’s focus on search-centric applications, LangChain excels in scenarios demanding complex interactions, such as chatbots, memory recall, and question summarization.
 
@@ -119,7 +119,7 @@ Zod works in Node.js and all major browsers (including IE 11). This makes it a g
 Zod is designed to be TypeScript-first, meaning that the library will automatically infer the static TypeScript type for your data structures. This eliminates the need to declare types twice - once in Zod and again in TypeScript. It will save you a lot of typing and will help you keep your code changes in sync.
 Zod’s API is concise and chainable. This makes it easy to create complex data schemas. You can also easily compose simpler schemas into more complex data ones.
 
-![alt text](../images/image-02-06.png)
+![alt text](../images/orchestration-frameworks/image-02-06.png)
 
 </details>
 
@@ -145,7 +145,7 @@ This assertion uses Closed QA methods (based on the OpenAI Evals) to ensure that
 
 Promptfoo produces matrix views that enable quick evaluation of outputs across multiple prompts and inputs in the terminal, as well as a web UI for more in-depth exploration of the test results. These features are invaluable for spotting trends, understanding model strengths and weaknesses, and making informed decisions about which LLM to use for your specific application.
 
-![alt text](../images/image-02-07.png)
+![alt text](../images/orchestration-frameworks/image-02-07.png)
  
 #### Promptfoo Use Cases
 
