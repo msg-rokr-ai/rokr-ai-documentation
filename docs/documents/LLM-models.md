@@ -1,6 +1,8 @@
-# Breef Introduction
+# LLM MODELS
 
-Large language models (LLMs) are a category of foundation models trained on immense amounts of data making them capable of understanding and generating natural language and other types of content to perform a wide range of tasks. Their key difference lies in their scale, architecture, somethimes prompting techniques and ability to generalize well to diverse language tasks.
+## Brief Introduction
+
+Large language models (LLMs) are a category of foundation models trained on immense amounts of data making them capable of understanding and generating natural language and other types of content to perform a wide range of tasks. Their key difference lies in their scale, architecture, sometimes prompting techniques and ability to generalize well to diverse language tasks.
 
 LLMs can be open-source (you can download a GGUF or EXL2 file) or they can be accessed through APIs.
 
@@ -94,20 +96,20 @@ There is limited available data about benchmarking Amazon Titan Text models. One
 
 The existence of websites that compare generative AI models doesn't provide much information about performance either. For example, this [Amazon Titan vs. ChatGPT vs. GPT-4 Comparison Chart](https://sourceforge.net/software/compare/Amazon-Titan-vs-ChatGPT-vs-GPT-4/) is not particularly informative because the software hasn't been reviewed yet. Additionally, there are unreliable comparisons between older versions of generative AIs and the then-unreleased Bedrock.
 
-The general available data about Amazon Titan Text models comes from the official Amazon site, which provides information regarding  [documentation](https://docs.aws.amazon.com/bedrock/latest/userguide/titan-models.html), usage, pricing, [demo](https://aws.amazon.com/bedrock/titan/), [prompt engeneering](https://d2eo22ngex1n9g.cloudfront.net/Documentation/User+Guides/Titan/Amazon+Titan+Text+Prompt+Engineering+Guidelines.pdf), and more.
+The available data about Amazon Titan Text models comes from the official Amazon site, which provides information regarding  [documentation](https://docs.aws.amazon.com/bedrock/latest/userguide/titan-models.html), usage, pricing, [demo](https://aws.amazon.com/bedrock/titan/), [prompt engeneering](https://d2eo22ngex1n9g.cloudfront.net/Documentation/User+Guides/Titan/Amazon+Titan+Text+Prompt+Engineering+Guidelines.pdf), and more.
 
 ### 2. Claude
 
 - Developer: Anthropic
 
-- Parameters: over 130 bilion
+- Parameters: over 130 billion
 
 - Access: API
 
 Claude boasts a wide context size, allowing it to consider a large amount of surrounding text when generating responses.
 Depending on the specific model variant, Claude’s context window ranges from 100,000 to 200,000 tokens. This makes it excellent at parsing and analyzing long documents and strings of text.
 
-_When interacting with Claude, it’s best to provide long documents or text before instructions or user input. The model pays extra attention to text near the bottom of the prompt._
+_When interacting with Claude, it’s best to provide long documents or text before instructions or user input. The model pays extra attention to the text near the bottom of the prompt._
 
 Capabilities:
 
@@ -124,7 +126,7 @@ Claude 2.0 / Claude Instant context window - 100,000 token
 
 | Claude models   | Input (Per 1M tokens) | Output (Per 1M tokens) |
 | --------------- | --------------------- | ---------------------- |
-| Claude 3 Opius  | $15                   | $75                    |
+| Claude 3 Opus  | $15                   | $75                    |
 | Claude 3 Sonnet | $3                    | $15                    |
 | Claude 3 Haiku  | $0.25                 | $1.25                  |
 | Claude 2.1      | $8                    | $24                    |
@@ -135,17 +137,17 @@ On AWS only **Claude 3 Sonnet and Haiku** are available in region Europe (Paris)
 
 - Benchmarking
 
-A comparation between GPT-4 and Claude 3 Opus
+A comparison between GPT-4 and Claude 3 Opus
 
 ![alt text](../images/LLM-models/gpt-4_and_claude-3.png)
 
-The statistics of benchmarks, incorect refusals ("Previous Claude models often made unnecessary refusals that suggested a lack of contextual understanding" - Claude considering that conversations will lead to harmfull subjects) and accuracy can be seen on [Anthropic Website](https://www.anthropic.com/news/claude-3-family).
+The statistics of benchmarks, incorrect refusals ("Previous Claude models often made unnecessary refusals that suggested a lack of contextual understanding" - Claude considering that conversations will lead to harmful subjects) and accuracy can be seen on [Anthropic Website](https://www.anthropic.com/news/claude-3-family).
 
 ### 3. Mistral
 
 - Developer: Mistral AI
 
-- Parameters: up to 7.3 bilion
+- Parameters: up to 7.3 billion
 
 - Access: API
 
@@ -174,7 +176,7 @@ LLMs Benchmark Comparison Table
 
 - Developer: Google
 
-- Parameters: up to 60 bilion
+- Parameters: up to 60 billion
 
 - Access: API
 
@@ -207,12 +209,12 @@ For other interesting graphs and benchmarks you can visit [Artificial Analysis](
 
 ### Google's Bard
 
-- Google’s Bard chatbot is not available in Canada and Europe. The company has hinted at regulatory reasons for this issue, and it is believed to be because of General Data Protection Regulation (GDPR).
+- Google’s Bard chatbot is not available in Canada and Europe. The company has hinted at regulatory reasons for this issue, and it is believed to be because of the General Data Protection Regulation (GDPR).
 
-## Comparations
+## Comparisons
 
 - [Comparing Sentiment Analysis Tools: Claude 3, ChatGPT & Gemini](https://mistral-7b.com/comparing-sentiment-analysis-tools-claude-3-chatgpt-gemini/)
-- [Claude 3 Opius vs. ChatGPT-4 on Chatbot Arena](https://www.tomsguide.com/ai/claude-takes-the-top-spot-in-ai-chatbot-ranking-finally-knocking-gpt-4-down-to-second-place)
+- [Claude 3 Opus vs. ChatGPT-4 on Chatbot Arena](https://www.tomsguide.com/ai/claude-takes-the-top-spot-in-ai-chatbot-ranking-finally-knocking-gpt-4-down-to-second-place)
 - [Artificial Analysis](https://artificialanalysis.ai/models)
 - [An In-depth Comparison: ChatGPT vs. Claude vs. Bard](https://gowinston.ai/an-in-depth-comparison-chatgpt-vs-claude-vs-bard/)
 
@@ -223,3 +225,8 @@ For other interesting graphs and benchmarks you can visit [Artificial Analysis](
 - [LLM Comparison](https://www.reddit.com/r/LocalLLaMA/comments/18w9hak/llm_comparisontest_brand_new_models_for_2024/)
 - [Llm apis](https://llmapis.io/)
 - [GPT-Fathom: Evaluating LLMs under Aligned Settings](https://github.com/gpt-fathom/gpt-fathom?tab=readme-ov-file#gpt-fathom-evaluating-llms-under-aligned-settings)
+- [ChatBot Arena Leaderboard](https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard)
+
+---
+
+_Written by Larisa Nichitoaia_
