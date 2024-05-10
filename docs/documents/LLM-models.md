@@ -36,7 +36,6 @@ To access OpenAI's APIs you can create an account on the [OpenAi](https://platfo
 
 ![alt text](../images/LLM-models/rsz_1radar_gpt-35-turbo-instruct-0914.png)
 
-
 ## AWS Bedrock models
 
 Bedrock is a fully managed, serverless service, that provides users access to Foundation Models (FMs) from several third-party providers and from Amazon through a single API. After you select a FM to use you can privately customize it and connect your propriety data sources and knowledge bases.
@@ -92,11 +91,11 @@ On-Demand and Batch pricing for text models
 
 - Benchmarking
 
-There is limited available data about benchmarking Amazon Titan Text models. One of the very few available tests was conducted within the  [AWS COMMUNITY](https://community.aws/content/2b3FiirF9gbFM1Q7w1CUCDBhSwn/testing).
+There is limited available data about benchmarking Amazon Titan Text models. One of the very few available tests was conducted within the [AWS COMMUNITY](https://community.aws/content/2b3FiirF9gbFM1Q7w1CUCDBhSwn/testing).
 
 The existence of websites that compare generative AI models doesn't provide much information about performance either. For example, this [Amazon Titan vs. ChatGPT vs. GPT-4 Comparison Chart](https://sourceforge.net/software/compare/Amazon-Titan-vs-ChatGPT-vs-GPT-4/) is not particularly informative because the software hasn't been reviewed yet. Additionally, there are unreliable comparisons between older versions of generative AIs and the then-unreleased Bedrock.
 
-The available data about Amazon Titan Text models comes from the official Amazon site, which provides information regarding  [documentation](https://docs.aws.amazon.com/bedrock/latest/userguide/titan-models.html), usage, pricing, [demo](https://aws.amazon.com/bedrock/titan/), [prompt engeneering](https://d2eo22ngex1n9g.cloudfront.net/Documentation/User+Guides/Titan/Amazon+Titan+Text+Prompt+Engineering+Guidelines.pdf), and more.
+The available data about Amazon Titan Text models comes from the official Amazon site, which provides information regarding [documentation](https://docs.aws.amazon.com/bedrock/latest/userguide/titan-models.html), usage, pricing, [demo](https://aws.amazon.com/bedrock/titan/), [prompt engeneering](https://d2eo22ngex1n9g.cloudfront.net/Documentation/User+Guides/Titan/Amazon+Titan+Text+Prompt+Engineering+Guidelines.pdf), and more.
 
 ### 2. Claude
 
@@ -126,7 +125,7 @@ Claude 2.0 / Claude Instant context window - 100,000 token
 
 | Claude models   | Input (Per 1M tokens) | Output (Per 1M tokens) |
 | --------------- | --------------------- | ---------------------- |
-| Claude 3 Opus  | $15                   | $75                    |
+| Claude 3 Opus   | $15                   | $75                    |
 | Claude 3 Sonnet | $3                    | $15                    |
 | Claude 3 Haiku  | $0.25                 | $1.25                  |
 | Claude 2.1      | $8                    | $24                    |
@@ -159,9 +158,9 @@ On the MMLU benchmark, which evaluates a model’s reasoning and comprehension a
 
 | Mistral models | Input (Per 1M tokens) | Output (Per 1M tokens) |
 | -------------- | --------------------- | ---------------------- |
-| Mistral 7B     | $0.0002               | $0.00026               |
-| Mixtral 8x7B   | $0.00059              | $0.00091               |
-| Mistral Large  | $0.0104               | $0.0312                |
+| Mistral 7B     | $0.2                  | $0.26                  |
+| Mixtral 8x7B   | $0.59                 | $0.91                  |
+| Mistral Large  | $10.4                 | $31.2                  |
 
 - Benchmarking
 
@@ -170,7 +169,6 @@ According to Mistral AI’s benchmarks, Mixtral 8x7B outperforms or matches the 
 LLMs Benchmark Comparison Table
 
 ![alt text](../images/LLM-models/mistral-7b_and_mistral-8x7b.png)
-
 
 ## Gemini Pro 1.0
 
@@ -200,12 +198,11 @@ Gemini Pro 1.5 has astonishing improvements but is not available in Europe.
 
 For other interesting graphs and benchmarks you can visit [Artificial Analysis](https://artificialanalysis.ai/models/gemini-pro)
 
-
 ## LLMs not available in Europe
 
 ### Meta Models
 
-- Meta states that  Llama 3 performs better than most current AI models.
+- Meta states that Llama 3 performs better than most current AI models.
 
 ### Google's Bard
 
