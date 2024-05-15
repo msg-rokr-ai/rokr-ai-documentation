@@ -8,13 +8,13 @@ sources, such as databases.
 
 ## How it works
 
-![rag-framework.webp](..%2Fimages%2Frag%2Frag-framework.webp)
+![rag-framework.webp](../images/rag/rag-framework.webp)
 Starting with a prompt, a query is generated and used to identify the relevant documents, having the results then used
 to generate the answer
 
 Here is an such example:
 
-![rag-process.webp](..%2Fimages%2Frag%2Frag-process.webp)
+![rag-process.webp](../images/rag/rag-process.webp)
 
 ### Retrieval
 
@@ -47,7 +47,7 @@ Main Scope: _converting the retrieved information into a coherent text that will
 
 ## RAG Paradigms
 
-![rag-paradigms.webp](..%2Fimages%2Frag%2Frag-paradigms.webp)
+![rag-paradigms.webp](../images/rag/rag-paradigms.webp)
 
 1. **Naive RAG**: _a user input is used to query relevant document and combined with a prompt_
     * low precision - when the retrieved chunks are misaligned
