@@ -13,6 +13,7 @@
       rel="stylesheet"
       href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css"
     />
+
     <style>
       details summary > * {
         display: inline;
@@ -28,6 +29,10 @@
         sidebarDisplayLevel: 0,
         themeColor: "#A01441",
         subMaxLevel: 2,
+        latex: {
+          inlineMath   : [['@', '@']],
+          displayMath: [["$$", "$$"]],
+        },
       };
     </script>
     <!-- Docsify v4 -->
@@ -35,5 +40,7 @@
     <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
     <script src="//cdn.jsdelivr.net/npm/@sy-records/docsify-footnotes/lib/index.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify-latex@0"></script>
   </body>
 </html>
