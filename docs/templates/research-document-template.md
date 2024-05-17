@@ -39,7 +39,7 @@ Example: - Provides a quick way to group and find similar data of any kind (e.g.
 
 _Enumerate what are the disadvantages or technical limitations of the topic_
 
-Example: - Chaning the embedding system causes the re-indexing of the whole Vector DB.
+Example: - Chaining the embedding system causes the re-indexing of the whole Vector DB.
 
 ## Alternatives
 
