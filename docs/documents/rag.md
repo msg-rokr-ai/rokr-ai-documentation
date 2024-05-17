@@ -161,6 +161,7 @@ Tools to build RAG systems:
 [Hugging Face - RAG Evaluation](https://huggingface.co/learn/cookbook/en/rag_evaluation)
 
 [Evaluating RAG Applications with RAGAs](https://towardsdatascience.com/evaluating-rag-applications-with-ragas-81d67b0ee31a)
+
 ---
 
 _Written by Oana Marin_
