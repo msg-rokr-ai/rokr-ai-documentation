@@ -37,6 +37,7 @@ Vector databases’ search capabilities can be used in various applications rang
 
 The most popular use case of vector search engines is naturally for search. Because a vector database can help find similar objects, it is predestined for applications where you might want to find similar products, movies, books, songs, etc. That’s why vector search engines are also used in recommendation systems as a restated task of search. 
 
+A vector index is a data structure used in information retrieval to efficiently store and retrieve high-dimensional vector data, enabling fast similarity searches and nearest neighbor queries.
 
 ### Similarity search
 
@@ -46,23 +47,24 @@ Similarly to how we can find similar vectors for the word "Dog", we can find sim
 
 ![alt text](../images/vector-search-and-embeddings/vector_search_3.webp)
 
-Vector similarity search involves representing data as vectors in a high-dimensional space, organizing them with an index structure for efficient retrieval, and employing a distance metric to measure their similarity. Here's a breakdown:
+**Vector search algorithms** are designed to efficiently find similar vectors within a large dataset. They are used in various applications such as nearest neighbor search, information retrieval, recommendation systems, and more.
 
-- Vector Representation: Data such as documents, images, or products are represented as vectors in a multi-dimensional space, where each dimension corresponds to a specific attribute or characteristic.
+Types of Vector Search Algorithms
 
-- Indexing: An index structure is created to organize the vectors, facilitating quick retrieval of similar vectors without needing to compare every pair in the dataset. This is crucial for handling large amounts of data efficiently.
+1. **Exhaustive k-nearest neighbors (KNN)**
 
-- Distance Metric: A distance metric, like Euclidean distance or cosine similarity, measures the dissimilarity between vectors. The choice of metric depends on the data and application requirements.
+The k-nearest neighbors (KNN) algorithm stands out for its accuracy in identifying similar data points. However, this method demands substantial computational resources and time for execution, making it ideal for scenarios where precision is paramount.
 
-- Building the Index: Vectors and the chosen distance metric are used to construct the index structure, which partitions the high-dimensional space into smaller regions for efficient search.
+2. **Hierarchical Navigable Small World (HNSW)**
 
-- Querying: A query vector representing the object of interest is compared to indexed vectors using the chosen distance metric. The index structure guides the search to relevant regions, reducing the number of comparisons needed.
+Hierarchical Navigable Small World (HNSW) offers an innovative approach to vector search by organizing data points in a hierarchical structure. This method optimizes search efficiency by reducing the number of distance calculations required, leading to faster query responses.
 
-- Ranking and Retrieval: Retrieved vectors are ranked based on their similarity to the query vector, determined by the distance metric. Vectors with smaller distances are considered more similar and ranked higher.
+3. **Approximate Nearest Neighbor (ANN)**
 
-- Post-processing: Additional steps like filtering and ranking algorithms can refine search results based on application requirements, such as personalizing recommendations in recommendation systems.
+For applications prioritizing speed without compromising accuracy, Approximate Nearest Neighbor (ANN) algorithms shine. These methods excel in high-dimensional spaces by swiftly locating similar vectors while offering improved execution efficiency compared to exact search algorithms.
 
-Several types of distance metrics can be used in vector similarity search, each with strengths and weaknesses. The choice of distance metric will ultimately depend on the specific application and the type of data being analyzed.
+
+Several types of **distance metrics** can be used in vector similarity search, each with strengths and weaknesses. The choice of distance metric will ultimately depend on the specific application and the type of data being analyzed.
 
 1. **Squared Euclidean or L2-squared** 
 
@@ -125,7 +127,26 @@ Manhattan distance measures the distance between two vectors based on the sum of
 
 ![alt text](../images/vector-search-and-embeddings/1_YNkLJ0zye-TnaoG4xkYVoA.webp)
 
+*When Should You Use L1 or Manhattan distance?*
+
 This type of vector similarity is applicable in various scenarios where you want to measure the distance or dissimilarity between two points in a grid-based system, especially when movement is constrained to horizontal and vertical paths.
+
+### Steps
+
+Vector similarity search involves representing data as vectors in a high-dimensional space, organizing them with an index structure for efficient retrieval, and employing a distance metric to measure their similarity. Here's a breakdown:
+
+- Vector Representation: Data such as documents, images, or products are represented as vectors in a multi-dimensional space, where each dimension corresponds to a specific attribute or characteristic.
+
+
+- Distance Metric: A distance metric, like Euclidean distance or cosine similarity, measures the dissimilarity between vectors. The choice of metric depends on the data and application requirements.
+
+- Building the Index: Vectors and the chosen distance metric are used to construct the index structure, which partitions the high-dimensional space into smaller regions for efficient search.
+
+- Querying: A query vector representing the object of interest is compared to indexed vectors using the chosen distance metric. The index structure guides the search to relevant regions, reducing the number of comparisons needed.
+
+- Ranking and Retrieval: Retrieved vectors are ranked based on their similarity to the query vector, determined by the distance metric. Vectors with smaller distances are considered more similar and ranked higher.
+
+- Post-processing: Additional steps like filtering and ranking algorithms can refine search results based on application requirements, such as personalizing recommendations in recommendation systems.
 
 ### Usage with LLM's
 
